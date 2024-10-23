@@ -20,7 +20,8 @@ int n_getline(char s[], int lim) {
 int main() {
 	
 	char line[MAXLINE];
-	int len = n_getline(line, MAXLINE);
+	int len;
+	while ((len = n_getline(line, MAXLINE)) > 0){
 	int temp = len - 1;
 	int i = 0;
 	while (temp > i) {
@@ -31,5 +32,6 @@ int main() {
 		++i;
 	}
 	printf("%s",line);
+	}
 }
 
