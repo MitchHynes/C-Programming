@@ -1,5 +1,4 @@
 C is pass by value. Meaning if you pass a variable to a function, it gets a copy and not the original.
-An exception to this is arrays. When the name of an array is used as an argument, the value to the function is the location or address of the 
-beginning of the array. There is no copying of array elements.
+An exception to this is arrays. When the name of an array is used as an argument, the value to the function is the location or address of the beginning of the array. There is no copying of array elements.
 
 
