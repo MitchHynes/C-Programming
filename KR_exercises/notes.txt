@@ -1,4 +1,6 @@
 C is pass by value. Meaning if you pass a variable to a function, it gets a copy and not the original.
 An exception to this is arrays. When the name of an array is used as an argument, the value to the function is the location or address of the beginning of the array. There is no copying of array elements.
 
+For switch statements, multiple cases are possible (as long as they are all unique). In exercise 1-23, I was having a problem where a case for a char
+and the default were both running. This is actually the way the switch statement works.
 
