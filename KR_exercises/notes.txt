@@ -8,3 +8,7 @@ C header files are included in the directory ~/usr/include.
 
 I counted how many header files there are by using the command ls ~/usr/include/*.h | wc -l
 
+the const declaration can be used within array arguments, to indicate the function doesn't change that array.
+
+int strlen(const char[]);
+
